@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".BorowikActivity">
+
+    <TextView
+            android:text="Miąższ: Zwykle ma kolor biały, rzadziej kremowy lub piaskowy, pod skórą czerwonawobrązowy. U młodych osobników jest on twardy, a u starszych gąbczasty."
+            android:layout_width="346dp"
+            android:layout_height="55dp" android:id="@+id/textView11"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" app:layout_constraintHorizontal_bias="0.492"/>
+    <TextView
+            android:text="Nazwa systematyczna: Boletus edulis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView12"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintVertical_bias="0.394"/>
+    <TextView
+            android:text="Kapelusz: Ma średnicę od 6 do 25 centymetrów. U młodych osobników jest zwykle barwy białej, później piaskowej. Z czasem staje się jasnobrązowy i ciemnobrązowy. Rzadko zdarza się, aby kapelusz borowika szlachetnego był barwy karminowej."
+            android:layout_width="346dp"
+            android:layout_height="90dp" android:id="@+id/textView13"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.499" app:layout_constraintHorizontal_bias="0.446"/>
+    <TextView
+            android:text="Trzon: Ma wysokość od 5 do 20 centymetrów, a grubość od 1,5 do 10 centymetrów. Jest koloru białego, szarobiaławego lub piaskowego. U młodych osobników borowika szlachetnego trzon jest pękaty i głęboko osadzony w ziemi, później wydłuża się, staje się maczugowaty i baryłkowaty."
+            android:layout_width="351dp"
+            android:layout_height="101dp" android:id="@+id/textView14"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.887"/>
+    <TextView
+            android:text="Nazwa pospolita: Borowik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView15"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintVertical_bias="0.344"
+            app:layout_constraintHorizontal_bias="0.497"/>
+    <ImageView
+            android:layout_width="290dp"
+            android:layout_height="178dp" app:srcCompat="@drawable/borowik" android:id="@+id/imageView6"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintVertical_bias="0.028"/>
+    <TextView
+            android:text="Rurki: Drobne, okrągławe na przekroju rurki o długości od 8 do 30 milimetrów. Dają się łatwo oddzielić od miąższu kapelusza. Pory i rurki u młodych owocników są zwykle barwy białej bądź kremowej. U osobników starszych są one żółtawooliwkowe, żółtozielone i oliwkowozielone."
+            android:layout_width="351dp"
+            android:layout_height="101dp" android:id="@+id/textView16"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.684" app:layout_constraintHorizontal_bias="0.483"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,4 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="text_colour">#A04B2C</color>
+    <color name="grzyb_main">#BA5733</color>
+    <color name="grzyb_secondary">#ECB39E</color>
 </resources>

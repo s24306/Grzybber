@@ -32,11 +32,6 @@ public class GrzybberMenuActivity extends AppCompatActivity {
     private void tapDroid() {
         counter++;
         String countAsText;
-        /*
-         * In real applications you should not write switch like the one below.
-         * Use resource of type "Quantity strings (plurals)" instead.
-         * See https://developer.android.com/guide/topics/resources/string-resource#Plurals
-         */
         switch (counter) {
             default:
                 countAsText = String.format("%d grzybuw", counter);
@@ -46,6 +41,16 @@ public class GrzybberMenuActivity extends AppCompatActivity {
 
     public void changeActivity(View view) {
         Intent i = new Intent(this, AtlasGrzybowActivity.class);
+        startActivity(i);
+    }
+
+    public void changeActivityForum(View view) {
+        Intent i = new Intent(this, ForumActivity.class);
+        startActivity(i);
+    }
+
+    public void changeActivityMapa(View view) {
+        Intent i = new Intent(this, MapaGrzybowActivity.class);
         startActivity(i);
     }
 }

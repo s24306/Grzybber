@@ -35,4 +35,20 @@
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@+id/grzybyCounter"
             android:layout_marginTop="-300dp" android:onClick="changeActivity"/>
+    <Button
+            android:text="Forum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/atlasGrzybow2"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@+id/grzybyCounter"
+            android:layout_marginTop="-300dp" android:onClick="changeActivityForum"
+            app:layout_constraintHorizontal_bias="0.498" app:layout_constraintVertical_bias="0.68"/>
+    <Button
+            android:text="Mapa grzybów"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/atlasGrzybow3"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@+id/grzybyCounter"
+            android:layout_marginTop="-300dp" android:onClick="changeActivityMapa"
+            app:layout_constraintHorizontal_bias="0.498" app:layout_constraintVertical_bias="0.837"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

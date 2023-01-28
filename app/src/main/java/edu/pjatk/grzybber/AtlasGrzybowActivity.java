@@ -13,8 +13,23 @@ public class AtlasGrzybowActivity extends AppCompatActivity {
         setContentView(R.layout.activity_atlas_grzybow);
     }
 
-    public void goBack(View v){
-        Intent i = new Intent(this, GrzybberMenuActivity.class);
+    public void changeKurkaActivity(View view) {
+        Intent i = new Intent(this, KurkaActivity.class);
+        startActivity(i);
+    }
+
+    public void changeBorowikActivity(View view) {
+        Intent i = new Intent(this, BorowikActivity.class);
+        startActivity(i);
+    }
+
+    public void changeMuchomorActivity(View view) {
+        Intent i = new Intent(this, MuchomorActivity.class);
+        startActivity(i);
+    }
+
+    public void changePieczarkaActivity(View view) {
+        Intent i = new Intent(this, PieczarkaActivity.class);
         startActivity(i);
     }
 }

@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
     <application
             android:allowBackup="true"
             android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,10 +17,65 @@
             android:theme="@style/Theme.Grzybber"
             tools:targetApi="31">
         <activity
-                android:name=".AtlasGrzybowActivity"
-                android:parentActivityName=".GrzybberMenuActivity"
+                android:name=".MapaGrzybowActivity"
                 android:exported="false"
-                android:label="Atlas">
+                android:label="Mapa grzybów"
+                android:parentActivityName=".GrzybberMenuActivity">
+            <meta-data
+                    android:name="android.app.lib_name"
+                    android:value=""/>
+        </activity>
+        <activity
+                android:name=".ForumActivity"
+                android:exported="false"
+                android:label="Forum"
+                android:parentActivityName=".GrzybberMenuActivity"
+                android:theme="@style/Theme.Grzybber.NoActionBar">
+            <meta-data
+                    android:name="android.app.lib_name"
+                    android:value=""/>
+        </activity>
+        <activity
+                android:name=".PieczarkaActivity"
+                android:exported="false"
+                android:label="Pieczarka"
+                android:parentActivityName=".AtlasGrzybowActivity">
+            <meta-data
+                    android:name="android.app.lib_name"
+                    android:value=""/>
+        </activity>
+        <activity
+                android:name=".BorowikActivity"
+                android:exported="false"
+                android:label="Borowik"
+                android:parentActivityName=".AtlasGrzybowActivity">
+            <meta-data
+                    android:name="android.app.lib_name"
+                    android:value=""/>
+        </activity>
+        <activity
+                android:name=".MuchomorActivity"
+                android:exported="false"
+                android:label="Muchomor"
+                android:parentActivityName=".AtlasGrzybowActivity">
+            <meta-data
+                    android:name="android.app.lib_name"
+                    android:value=""/>
+        </activity>
+        <activity
+                android:name=".KurkaActivity"
+                android:exported="false"
+                android:label="Kurka"
+                android:parentActivityName=".AtlasGrzybowActivity">
+            <meta-data
+                    android:name="android.app.lib_name"
+                    android:value=""/>
+        </activity>
+        <activity
+                android:name=".AtlasGrzybowActivity"
+                android:exported="false"
+                android:label="Atlas"
+                android:parentActivityName=".GrzybberMenuActivity">
             <meta-data
                     android:name="android.app.lib_name"
                     android:value=""/>
